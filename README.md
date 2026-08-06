@@ -3,9 +3,13 @@
 A comprehensive guide and methodology for web application penetration testing and bug bounty hunting.
 
 # List Vulnerability
+
 Arbitrary File Upload
+
 BugBounty Programs Dorking
+
 CRLF Injection
+
 Cross Site Request Forgery (CSRF)
 Cross Site Scripting (XSS)
 Denial of Service (DoS)
