@@ -1,122 +1,100 @@
-# Bug-Bounty-Methodology
+# 🎯 Bug-Bounty-Methodology
 
 A comprehensive guide and methodology for web application penetration testing and bug bounty hunting.
 
-# List Vulnerability
+Created & Maintained by [@abdelhakim14x0](https://github.com/abdelhakim14x0)
 
-Arbitrary File Upload
+---
 
-BugBounty Programs Dorking
+## 📌 Vulnerabilities Methodology
 
-CRLF Injection
+* 📁 [Arbitrary File Upload](./Arbitrary%20File%20Upload.md)
+* 📁 [BugBounty Programs Dorking](./BugBounty%20Programs%20Dorking)
+* 📁 [CRLF Injection](./CRLF%20Injection.md)
+* 📁 [Cross Site Request Forgery (CSRF)](./Cross%20Site%20Request%20Forgery.md)
+* 📁 [Cross Site Scripting (XSS)](./Cross%20Site%20Scripting.md)
+* 📁 [Denial of Service (DoS)](./Denial%20Of%20Service.md)
+* 📁 [Exposed Source Code](./Exposed%20Source%20Code.md)
+* 📁 [Fast Automation](./Fast%20Outomation.md)
+* 📁 [Host Header Injection](./Host%20Header%20Injection.md)
+* 📁 [Insecure Direct Object References (IDOR)](./Insecure%20Direct%20Object%20References.md)
+* 📁 [Local File Inclusion (LFI)](./Local%20File%20Inclusion.md)
+* 📁 [Mass Assignment](./Mass%20Assignment.md)
+* 📁 [NoSQL Injection (NoSQLi)](./NoSQL%20Injection.md)
+* 📁 [OAuth Misconfiguration](./OAuth%20Misconfiguration.md)
+* 📁 [Open Redirect](./Open%20Redirect.md)
+* 📁 [Reflected File Download (RFD)](./Reflected%20File%20Download.md)
+* 📁 [Remote File Inclusion (RFI)](./Remote%20File%20Inclusion.md)
+* 📁 [Server Side Include Injection (SSI Injection)](./Server%20Side%20Include%20Injection.md)
+* 📁 [Server Side Request Forgery (SSRF)](./Server%20Side%20Request%20Forgery.md)
+* 📁 [SQL Injection (SQLi)](./SQL%20Injection.md)
+* 📁 [Web Cache Deception](./Web%20Cache%20Deception.md)
+* 📁 [Web Cache Poisoning](./Web%20Cache%20Poisoning.md)
+* 📁 [WordPress](./Wordpress.md)
 
-Cross Site Request Forgery (CSRF)
+---
 
-Cross Site Scripting (XSS)
+## 🛑 Bypasses
 
-Denial of Service (DoS)
+* 🔓 [Bypass 2FA](./Bypass/Bypass%202FA.md)
+* 🔓 [Bypass 403](./Bypass/Bypass%20403.md)
+* 🔓 [Bypass 429](./Bypass/Bypass%20429.md)
+* 🔓 [Bypass Captcha](./Bypass/Bypass%20Captcha.md)
 
-Exposed Source Code
+---
 
-Fast Automation
+## 📋 Checklists & Guides
 
-Host Header Injection
+* ⚙️ [Forgot Password Functionality](./Checklist/Forgot%20Password.md)
+* ⚙️ [Awesome GraphQL Security](./Checklist/awesome-graphql-security)
 
-Insecure Direct Object References (IDOR)
+---
 
-Local File Inclusion (LFI)
+## 🛡️ CVEs
 
-Mass Assignment
+* 🚨 [CVE-2021-36873](./CVEs/2021/CVE-2021-36873.md)
 
-NoSQL Injection (NoSQLi)
+---
 
-OAuth Misconfiguration
+## 🧩 Miscellaneous
 
-Open Redirect
+* 🔹 [Account Takeover](./Misc/Account%20Takeover.md)
+* 🔹 [Broken Link Hijacking](./Misc/Broken%20Link%20Hijacking.md)
+* 🔹 [Business Logic Errors](./Misc/Business%20Logic%20Errors.md)
+* 🔹 [Default Credentials](./Misc/Default%20Credentials.md)
+* 🔹 [Email Spoofing](./Misc/Email%20Spoofing.md)
+* 🔹 [Exposed API Keys](./Misc/Exposed%20API%20keys.md)
+* 🔹 [JWT Vulnerabilities](./Misc/JWT%20Vulnerabilities.md)
+* 🔹 [Tabnabbing](./Misc/Tabnabbing.md)
 
-Reflected File Download (RFD)
+---
 
-Remote File Inclusion (RFI)
+## 💻 Technologies Target Guidelines
 
-Server Side Include Injection (SSI Injection)
+* 🌐 [Apache HTTP Server](./Technologies/Apache%20HTTP%20Server.md)
+* 🌐 [Confluence](./Technologies/Confluence.md)
+* 🌐 [Grafana](./Technologies/Grafana.md)
+* 🌐 [HAProxy](./Technologies/HAProxy.md)
+* 🌐 [Jenkins](./Technologies/Jenkins.md)
+* 🌐 [Jira](./Technologies/Jira.md)
+* 🌐 [Joomla](./Technologies/Joomla.md)
+* 🌐 [Laravel](./Technologies/Laravel.md)
+* 🌐 [Moodle](./Technologies/Moodle.md)
+* 🌐 [Nginx](./Technologies/Nginx.md)
+* 🌐 [WordPress](./Technologies/WordPress.md)
+* 🌐 [Zend](./Technologies/Zend.md)
 
-Server Side Request Forgery
+---
 
-SQL Injection (SQLi)
+## 🔍 Reconnaissance
 
-Web Cache Deception
+* 🎯 [Scope Based Recon](./Reconnaissance/Scope.md)
+* 🎯 [Github Dorks](./Reconnaissance/Github%20Dorks.md)
+* 🎯 [Google Dorks](./Reconnaissance/Google%20Dorks.md)
+* 🎯 [Shodan Dorks](./Reconnaissance/Shodan%20Dorks.md)
 
-Web Cache Poisoning
+---
 
-WordPress
+## 📁 XSS Payloads & SVG PoCs
 
-# List Bypass
-
-Bypass 2FA
-
-Bypass 403
-
-Bypass 429
-
-Bypass Captcha
-
-# Checklist
-
-Forgot Password Functionality
-
-# CVEs
-
-CVEs 2021 
-
-
-# Miscellaneous
-
-Account Takeover
-
-Broken Link Hijacking
-
-Business Logic Errors
-
-Default Credentials
-
-Email Spoofing
-
-JWT Vulnerabilities
-
-# Tabnabbing
-
-Technologies
-
-Apache (HTTP Server)
-
-Confluence
-
-Grafana
-
-HAProxy
-
-Jenkins
-
-Jira
-
-Joomla
-
-Laravel
-
-Moodle
-
-Nginx
-
-WordPress
-
-Zend
-
-# Reconnaissance
-
-Scope Based Recon
-
-Github Dorks
-
-Google Dorks
-
-Shodan Dorks
+* 📄 [Browse XSS SVG & PDF Payloads](./xsspayload-%20pdfsvg)
